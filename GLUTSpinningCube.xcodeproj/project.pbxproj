@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27CA1A3A1C85A1C4009A0EE6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27CA1A391C85A1C4009A0EE6 /* main.c */; };
+		27CA1A431C85A1E1009A0EE6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27CA1A401C85A1E1009A0EE6 /* main.c */; };
+		27CA1A441C85A1E1009A0EE6 /* View.c in Sources */ = {isa = PBXBuildFile; fileRef = 27CA1A411C85A1E1009A0EE6 /* View.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		27CA1A361C85A1C4009A0EE6 /* GLUTSpinningCube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GLUTSpinningCube; sourceTree = BUILT_PRODUCTS_DIR; };
-		27CA1A391C85A1C4009A0EE6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27CA1A401C85A1E1009A0EE6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = GLUTSpinningCube/main.c; sourceTree = "<group>"; };
+		27CA1A411C85A1E1009A0EE6 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = View.c; path = GLUTSpinningCube/View.c; sourceTree = "<group>"; };
+		27CA1A421C85A1E1009A0EE6 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = GLUTSpinningCube/View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,9 @@
 		27CA1A2D1C85A1C4009A0EE6 = {
 			isa = PBXGroup;
 			children = (
+				27CA1A401C85A1E1009A0EE6 /* main.c */,
+				27CA1A411C85A1E1009A0EE6 /* View.c */,
+				27CA1A421C85A1E1009A0EE6 /* View.h */,
 				27CA1A381C85A1C4009A0EE6 /* GLUTSpinningCube */,
 				27CA1A371C85A1C4009A0EE6 /* Products */,
 			);
@@ -57,7 +63,6 @@
 		27CA1A381C85A1C4009A0EE6 /* GLUTSpinningCube */ = {
 			isa = PBXGroup;
 			children = (
-				27CA1A391C85A1C4009A0EE6 /* main.c */,
 			);
 			path = GLUTSpinningCube;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27CA1A3A1C85A1C4009A0EE6 /* main.c in Sources */,
+				27CA1A441C85A1E1009A0EE6 /* View.c in Sources */,
+				27CA1A431C85A1E1009A0EE6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
