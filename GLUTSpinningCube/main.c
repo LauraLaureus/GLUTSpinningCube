@@ -15,6 +15,7 @@ float gl_width = 2.0,gl_height = 2.0,gl_near = -1.0,gl_far =5.0;
 GLboolean  rotating = GL_FALSE;
 int angle_perstep = 1,steps_persecond =50;
 float sense =1.0;
+GLfloat angle = 0.0;
 
 
 

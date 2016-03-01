@@ -13,10 +13,12 @@
 #include <GLUT/glut.h>
 
 #endif /* View_h */
+#ifndef GLOBAL_VARS
 extern GLboolean rotating;
 extern int visualiza,w_width,w_height,steps_persecond,angle_perstep;
 extern float gl_width,gl_height,gl_near,gl_far,sense;
-extern GLfloat angle = 0;
+extern GLfloat angle;
+#endif
 
 extern void Mouse(int button,int state, int x, int y);
 extern void Timer(int value);
