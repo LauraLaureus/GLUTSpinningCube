@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		272D31961C9055A6009148DC /* demo2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = demo2.gif; path = GLUTSpinningCube/demo2.gif; sourceTree = "<group>"; };
 		27CA1A361C85A1C4009A0EE6 /* GLUTSpinningCube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GLUTSpinningCube; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CA1A401C85A1E1009A0EE6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = GLUTSpinningCube/main.c; sourceTree = "<group>"; };
 		27CA1A411C85A1E1009A0EE6 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = View.c; path = GLUTSpinningCube/View.c; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 				27CA1A401C85A1E1009A0EE6 /* main.c */,
 				27CA1A411C85A1E1009A0EE6 /* View.c */,
 				27CA1A421C85A1E1009A0EE6 /* View.h */,
+				272D31961C9055A6009148DC /* demo2.gif */,
 				27CA1A381C85A1C4009A0EE6 /* GLUTSpinningCube */,
 				27CA1A371C85A1C4009A0EE6 /* Products */,
 			);
@@ -243,6 +245,7 @@
 				27CA1A3F1C85A1C4009A0EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
